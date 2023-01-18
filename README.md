@@ -14,11 +14,13 @@ El mismo se trata de un simple formulario generado a traves de un archivo JSON e
 
 Una vez que hemos completados los datos y apretamos el boton enviar, nos saldra un cartel que nos preguntara si queremos ver nuestras respuestas.
 <br>
+
 <img height = "250" src="./form2.png">
 <br>
 
 Si hacemos click en Si, nos redirigira a otra ruta donde se mostraran los datos que hemos completado anteriormente.
 <br>
+
 <img height = "250" src="./data.png">
 <br>
 Tecnologias usadas:
@@ -30,5 +32,5 @@ Tecnologias usadas:
 <li>CSS</li>
 <br>
 La aplicacion esta deployada en vercel
-
+<br>
 <a href="">Link del Deploy</a>
