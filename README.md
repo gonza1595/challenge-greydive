@@ -33,4 +33,4 @@ Tecnologias usadas:
 <br>
 La aplicacion esta deployada en vercel
 <br>
-<a href="">Link del Deploy</a>
+<a href="https://challenge-greydive-v2.vercel.app/">Link del Deploy</a>
