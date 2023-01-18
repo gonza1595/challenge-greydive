@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Swal from "sweetalert2";
 import "./Form.css";
+
 import withReactContent from "sweetalert2-react-content";
 import appFirebase from "../Firebase/Firebase";
 import { getFirestore, addDoc, collection } from "firebase/firestore";
@@ -34,6 +35,7 @@ const jsonForm = {
       type: "select",
       label: "¿Cuál es tu país de origen?",
       name: "country_of_origin",
+      required: true,
       options: [
         {
           label: "Argentina",
@@ -68,7 +70,6 @@ const jsonForm = {
           value: "venezuela",
         },
       ],
-      required: true,
     },
     {
       type: "checkbox",
@@ -149,10 +150,14 @@ export default function Form() {
                       <select
                         className="option-select"
                         name={json.name}
+                        required={json.required}
                         onChange={(e) => handleChange(e)}
                       >
+                        <option value={""}>Seleccione un Pais... </option>
                         {json.options.map((option) => (
-                          <option value={option.value}>{option.label}</option>
+                          <option key={option.value} value={option.value}>
+                            {option.label}
+                          </option>
                         ))}
                       </select>
                     </div>
