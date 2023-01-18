@@ -21,7 +21,7 @@ Una vez que hemos completados los datos y apretamos el boton enviar, nos saldra 
 Si hacemos click en Si, nos redirigira a otra ruta donde se mostraran los datos que hemos completado anteriormente.
 <br>
 
-<img height = "250" src="./data.png">
+<img height = "250" src="./data1.png">
 <br>
 Tecnologias usadas:
 
