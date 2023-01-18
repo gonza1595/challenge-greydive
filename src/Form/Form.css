@@ -1,0 +1,120 @@
+.form-container {
+    background-color: rgb(155, 177, 170);
+    background-size: 100vw 100vh;
+    height: 100vh;
+    background-attachment: fixed;
+    
+    text-align: center;
+    padding: 20px;
+}
+
+.input-form {
+    height: 2em;
+    width: 20em;
+    margin-top: 2px;
+    color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgb(118, 118, 118);
+    background-color: white;
+    border-radius: 10px;
+    vertical-align: text-bottom;
+  }
+  
+.section {
+    display: inline-block;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.5);
+    padding-bottom: 2em;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 1em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .form {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 30px;
+  }
+
+  .label{
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+  
+  .subtitle {
+    display: flex;
+    align-items: center;
+    padding: 0.3em;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .buttonForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .buttonFormStyle {
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: rgb(2, 2, 2);
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  input[type=checkbox]
+{
+  -ms-transform: scale(2); 
+  -moz-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  -o-transform: scale(2); 
+  transform: scale(2);
+  cursor: pointer;
+}
+
+.checkbox-text
+{
+  display: inline;
+  margin-left: 10px;
+}
+
+.option-select {
+  height: 2.4em;
+  width: 20.6em;
+  margin-top: 2px;
+  color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgb(118, 118, 118);
+  background-color: white;
+  border-radius: 10px;
+  vertical-align: text-bottom;
+  padding: 4px;
+}
+
+input[type=date]
+{
+  height: 1.6em;
+  width: 19.7em;
+  margin-top: 2px;
+  color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgb(118, 118, 118);
+  background-color: white;
+  border-radius: 10px;
+  vertical-align: text-bottom;
+  padding: 4px;
+}
+
